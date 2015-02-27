@@ -4,8 +4,8 @@ var http = require('http');
 var path = require('path');
 var nconf = require('nconf');
 var fs = require('fs');
-var sockets = require('./websocket/sockets');
-sockets.setConfig(nconf);
+//var sockets = require('./websocket/sockets');
+//sockets.setConfig(nconf);
 
 var app = express();
 
