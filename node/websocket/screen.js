@@ -6,7 +6,7 @@ exports.setConfig = function(conf) {
 };
 
 exports.setVPixel = function(sockets, vPixel, red, green, blue) {	
-	// console.log("setting vPixel " + vPixel + " to rgb: " + red + "," + green + "," + blue);
+	console.log("setting vPixel " + vPixel + " to rgb: " + red + "," + green + "," + blue);
 	if(sockets.length < 1)
 		return;
 	var coreId = getCoreForPixel(vPixel);
